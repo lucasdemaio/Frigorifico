@@ -1,0 +1,42 @@
+.catalogo-flexcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.box{
+    width: 180px;
+    height: 88px;
+    margin: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vacuno-img{
+    background-image: url(../assets/vacuno.png);
+    background-repeat: no-repeat;
+   
+}
+
+.cerdo-img{
+    background-image: url(../assets/cerdo.png);
+    background-repeat: no-repeat;
+}
+
+.pollo-img{
+    background-image: url(../assets/pollo.png);
+    background-repeat: no-repeat;
+}
+
+.achuras-img{
+    background-image: url(../assets/achuras.png);
+    background-repeat: no-repeat;
+}
+
+.fiambreria-img{
+    background-image: url(../assets/fiambreria.png);
+    background-repeat: no-repeat;
+}

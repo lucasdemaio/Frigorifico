@@ -1,0 +1,46 @@
+.contacto-grid{
+    display: grid;
+    margin: auto;
+    margin-bottom: 100px;
+    grid-template-columns: 400px  450px;
+    grid-template-rows: repeat(4);
+    column-gap: 40px;
+    color: black;
+    row-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    grid-template-areas: 
+    "contacto-nombre contacto-img"
+    "contacto-mail contacto-img"
+    "contacto-consulta contacto-img"
+    "contacto-submit contacto-img"
+    ;
+}
+
+.contacto-nombre{
+    grid-area: contacto-nombre;
+}
+
+.contacto-mail{
+    grid-area: contacto-mail;
+}
+
+.contacto-consulta{
+    grid-area: contacto-consulta;
+}
+
+.contacto-submit{
+    grid-area:contacto-submit;
+    text-align: center;
+}
+
+.contacto-img{
+    grid-area: contacto-img;
+}
+
+.contacto-ig{
+    text-align: center;
+    a{
+       text-align: center;
+    }
+}

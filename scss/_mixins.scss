@@ -1,0 +1,48 @@
+@mixin box-productos {
+    color: white;
+    text-transform: uppercase;
+    margin: 20px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 12px groove $border-color;
+    border-right: 3px solid $border-color;
+    border-left: 3px solid $border-color;
+    border-top: 3px solid $border-color;
+    border-radius: 10px;
+    background-color: #003049;
+}
+
+.prod-1 {
+    @include box-productos();    
+}
+
+.prod-2 {
+    @include box-productos();
+}
+
+.prod-3 {
+    @include box-productos();
+}
+
+.prod-4 {
+    @include box-productos();
+}
+
+.prod-5 {
+    @include box-productos();
+}
+
+.prod-6 {
+    @include box-productos();
+}
+
+.prod-7 {
+    @include box-productos();
+}
+
+.prod-8 {
+    @include box-productos();
+}

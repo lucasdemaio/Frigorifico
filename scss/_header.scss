@@ -1,0 +1,86 @@
+.navbar-background{
+    background-color:$color-principal;
+}
+
+.items-posicion{
+    position: absolute;
+    right: 5px;
+}
+
+.nav-item a{
+    font-size: 20px;
+    color:$color-fuente-nav-footer;
+}
+
+.container-fluid a{
+    color: $color-fuente-nav-footer;
+} 
+
+.nav-item a:hover{
+    background-color: $color-hover;
+    transform: scale(1.3);
+}
+
+.nav-item a.active {
+    background-color: $color-active;
+    color: white !important;
+    font-weight: 700;
+}
+
+
+/* Sin Bootstrap */
+
+/* .nav-superior {
+    margin-bottom: 2%;
+    display: grid;
+    grid-template-columns:81px 250px auto;
+    grid-template-rows: 85px;
+    grid-template-areas:
+    "nav-logo nav-nombre nav-menu";
+    background-color:$color-principal;
+    overflow: hidden;
+    align-items: center;
+    a {
+        float: right;
+        color: black;
+        padding: 6px 6px;
+        text-decoration: none;
+        font-size: 22px;        
+    }
+}
+
+
+
+.nav-superior a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.nav-superior a.active {
+    background-color: #A46877;
+    color: white;
+}
+
+.nav-logo{
+    grid-area: nav-logo;
+}
+
+.nav-menu{
+    grid-area: nav-menu;
+    justify-content: center;
+    text-align: right;
+}
+
+.nav-nombre{
+    grid-area: nav-nombre;
+    width: 190px;
+    color: black;
+    font-weight: 300 !important;
+    font-size: 22px;
+    h3{
+        font-size:large;
+        font-weight: bold !important;
+    }
+} */
+
+

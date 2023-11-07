@@ -55,10 +55,9 @@ p {
   margin-bottom: 2%;
 }
 
-img {
-  margin-top: 10px;
-}
-
+/* img{
+    margin-top: 0px;
+} */
 .boton {
   background-color: black;
   color: white;
@@ -288,13 +287,13 @@ a {
   width: 100%;
   max-width: 100%;
   max-height: 100%;
+  margin-top: 50px;
 }
 
 .img-construccion {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
 }
 
 .nosotros-img {
@@ -579,6 +578,11 @@ a {
     line-height: 40px;
     bottom: 15px;
     right: 0px;
+    font-size: 30px;
+  }
+  .img-construccion {
+    height: 300px;
+    width: 300px;
   }
 }
 
